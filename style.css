@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* NAVBAR-SECTION */
+.container{
+    width: 1600px;
+    margin: 0 auto;
+    padding: 0 200px;
+    
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 92px;
+}
+
+.navbar .logo{
+    width: 219px;
+    height: 32px;
+}
+
+.navbar .menu ul{
+    flex-direction: row;
+    display: flex;
+    list-style-type: none;
+}
+
+.navbar .menu ul li a{
+    text-decoration: none;
+    padding: 32px;
+}
+
+/* BANNER-SECTION */
