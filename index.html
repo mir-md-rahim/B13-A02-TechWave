@@ -31,8 +31,11 @@
             <div class="microphone-banner">
               <!-- <div class="bg-image"><img  src="./assets/hero-circle.png" alt="hero-circle"></div> -->
 
-              <div class="mike-icon">
-                <img src="./assets/microphone.png" alt="hero-circle" />
+              <div>
+                <div class="mike-icon">
+                  <img src="./assets/microphone.png" alt="hero-circle" />
+                  <span class="new">NEW</span>
+                </div>
               </div>
             </div>
             <div>
@@ -60,16 +63,16 @@
       <div class="about">
         <div class="about-main">
           <h3 class="about-h">About the Podcast</h3>
-          <div>
-            <p class="container-text">
+          <div style="margin-bottom: 10px">
+            <p class="container-text about-p">
               TechWave is your go-to podcast for staying ahead in the fast-paced
               world of technology.
             </p>
-            <p class="container-text">
+            <p class="container-text about-p">
               We break down complex topics into digestible insights, explore
               productivity strategies that actually work,
             </p>
-            <p class="container-text">
+            <p class="container-text about-p">
               and share stories of personal growth from industry leaders.
             </p>
           </div>
@@ -174,7 +177,7 @@
     <section>
       <div class="featured">
         <h1 class="caption section-header">Featured Episodes</h1>
-        <div class="d-flex">
+        <div class="feature-wrap">
           <div class="featured-content">
             <iframe
               width="380"
@@ -194,17 +197,19 @@
               referrerpolicy="strict-origin-when-cross-origin"
               allowfullscreen
             ></iframe>
-
-            <h3 class="featured-hs">The Future of AI in Everyday Life</h3>
-            <p class="featured-p">
-              Exploring how artificial intelligence is transforming our daily
-              routines and what to expect in the next decade.
-            </p>
-            <h4 class="time">
-              <img src="./assets/clock.png" alt="clock.png" />42 min
-            </h4>
+            <div class="feature-footer">
+              <h3 class="featured-hs">The Future of AI in Everyday Life</h3>
+              <p class="featured-p">
+                Exploring how artificial intelligence is transforming our daily
+                routines and what to expect in the next decade.
+              </p>
+              <span class="time">
+                <img src="./assets/clock.png" alt="clock.png" />
+                <span>42 min</span>
+              </span>
+            </div>
           </div>
-          <div>
+          <div class="featured-content">
             <iframe
               width="380"
               height="214"
@@ -223,17 +228,20 @@
               referrerpolicy="strict-origin-when-cross-origin"
               allowfullscreen
             ></iframe>
-
-            <h3 class="featured-hs">Building Better Habits for Remote Work</h3>
-            <p class="featured-p">
-              Practical strategies for staying productive and maintaining
-              work-life balance in a remote environment.
-            </p>
-            <h4 class="time">
-              <img src="./assets/clock.png" alt="clock.png" />35 min
-            </h4>
+            <div class="feature-footer">
+              <h3 class="featured-hs">
+                Building Better Habits for Remote Work
+              </h3>
+              <p class="featured-p">
+                Practical strategies for staying productive and maintaining
+                work-life balance in a remote environment.
+              </p>
+              <h4 class="time">
+                <img src="./assets/clock.png" alt="clock.png" />35 min
+              </h4>
+            </div>
           </div>
-          <div>
+          <div class="featured-content">
             <iframe
               width="380"
               height="214"
@@ -252,15 +260,16 @@
               referrerpolicy="strict-origin-when-cross-origin"
               allowfullscreen
             ></iframe>
-
-            <h3 class="featured-hs">Career Growth in Tech: A Roadmap</h3>
-            <p class="featured-p">
-              Expert advice on navigating your tech career from junior developer
-              to senior leadership roles.
-            </p>
-            <h4 class="time">
-              <img src="./assets/clock.png" alt="clock.png" />51 min
-            </h4>
+            <div class="feature-footer">
+              <h3 class="featured-hs">Career Growth in Tech: A Roadmap</h3>
+              <p class="featured-p">
+                Expert advice on navigating your tech this career from junior
+                developer to senior leadership this roles.
+              </p>
+              <h4 class="time">
+                <img src="./assets/clock.png" alt="clock.png" />51 min
+              </h4>
+            </div>
           </div>
         </div>
 
@@ -277,10 +286,20 @@
                 shares insights from industry leaders and practical advice for
                 anyone looking to grow in tech.
               </p>
-              <img src="./assets/linkedin.png" alt="linkedin.png" />
-              <img src="./assets/x.png" alt="x.png" />
-              <img src="./assets/instagram.png" alt="instagram.png" />
-              <img src="./assets/youtube.png" alt="youtube.png" />
+              <div class="meet-icons">
+                <div class="meet-icon">
+                  <img src="./assets/linkedin.png" alt="linkedin.png" />
+                </div>
+                <div class="meet-icon">
+                  <img src="./assets/x.png" alt="x.png" />
+                </div>
+                <div class="meet-icon">
+                  <img src="./assets/instagram.png" alt="instagram.png" />
+                </div>
+                <div class="meet-icon">
+                  <img src="./assets/youtube.png" alt="youtube.png" />
+                </div>
+              </div>
             </div>
           </div>
         </div>
