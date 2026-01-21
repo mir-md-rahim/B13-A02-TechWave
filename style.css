@@ -454,6 +454,14 @@
   margin-bottom: 40px;
 }
 
+.navbar.mobile {
+  display: none;
+}
+.nav-btn {
+  display: flex;
+  gap: 10px;
+}
+
 /* media query */
 @media screen and (max-width: 576px) {
   .container,
@@ -502,5 +510,11 @@
   .mike-icon {
     width: 300px;
     height: 300px;
+  }
+  .navbar.mobile {
+    display: flex;
+  }
+  .navbar.full {
+    display: none;
   }
 }
