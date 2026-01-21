@@ -25,6 +25,10 @@
   background: #1a0b2e;
 }
 
+.header-t {
+  font-size: 3rem;
+}
+
 .color-gray {
   color: #aa9fb8;
 }
@@ -34,16 +38,15 @@
 }
 
 .navbar {
+  padding-top: 16px;
+  padding-bottom: 16px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  height: 92px;
 }
 
 .navbar .logo {
-  width: 219px;
-  height: 32px;
   color: #ffffff;
 }
 
@@ -61,6 +64,7 @@
   flex-direction: row;
   display: flex;
   list-style-type: none;
+  align-items: center;
 }
 
 .navbar .menu ul li a {
@@ -82,13 +86,14 @@
   border: none;
   cursor: pointer;
 }
-.button.linear {
+.linear {
   margin-top: 24px;
   padding: 14px 30px;
   display: flex;
   align-items: center;
   gap: 10px;
 }
+
 .button.outline {
   background-color: transparent;
 }
@@ -151,7 +156,6 @@
 
 .about-main {
   max-width: 1200px;
-  height: 222px;
   text-align: center;
 }
 
@@ -160,7 +164,7 @@
   color: #ffffff;
   font-size: 48px;
   font-weight: 700;
-  height: 58px;
+  padding-bottom: 20px;
 }
 
 .container-text {
@@ -172,6 +176,8 @@
 }
 
 .rank {
+  padding-top: 160px;
+  padding-bottom: 120px;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
 }
@@ -337,14 +343,15 @@
 
 /* MEET-THE-HOST */
 .meet-content {
-  width: 1200px;
-  height: 280px;
+  max-width: 1200px;
   background: #2a0f4d;
   margin: 0 auto;
   border-radius: 40px;
   /* justify-content: space-between; */
   padding: 20px;
   gap: 24px;
+  display: grid;
+  grid-template-columns: 200px 1fr;
 }
 
 .meet-img {
@@ -353,16 +360,9 @@
   align-self: center;
 }
 
-.meet-about {
-  width: 896px;
-  height: 183px;
-}
-
 .alex {
   color: #ffffff;
   margin-top: 48px;
-  width: 896px;
-  height: 39px;
   font-size: 32px;
   font-weight: 700;
   line-height: 39px;
@@ -411,8 +411,8 @@
 
 .pr {
   margin-top: 16px;
-  width: 896px;
-  height: 72px;
+  /* width: 896px;
+  height: 72px; */
 }
 
 /* FOOTER-SECTION */
@@ -458,8 +458,8 @@
   .about,
   .choose,
   .featured {
-    padding-left: 0px;
-    padding-right: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
   }
   .rank {
     display: grid;
@@ -476,7 +476,8 @@
     grid-column: span 1;
     grid-row: span 1;
   }
-  .feature-wrap {
+  .feature-wrap,
+  .meet-content {
     grid-template-columns: repeat(1, 1fr);
   }
 }
